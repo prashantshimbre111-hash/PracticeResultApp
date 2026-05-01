@@ -23,7 +23,6 @@ public class Test {
 		case "prashant": {
 			Student prashant = student.prashantdetails();
 			h.printer(prashant);
-		
 
 //			System.out.println(prashant.id);
 //			System.out.println(prashant.fname); 
@@ -46,9 +45,14 @@ public class Test {
 			break;
 
 		}
-		case "manoj" : {
+		case "manoj": {
 			Student manoj = student.manojdetails();
 			h.printer(manoj);
+			break;
+		}
+		case "vijay": {
+			Student vijay = student.vijaydetails();
+			h.printer(vijay);
 			break;
 		}
 		default:
