@@ -75,6 +75,11 @@ public class Test {
 			h.printer(vansh);
 			break;
 		}
+		case "harshad" : {
+			Student harshad = student.harshaddetails();
+			h.printer(harshad);
+			break;
+		}
 		default:
 			System.err.println("please enter propper name.");
 
